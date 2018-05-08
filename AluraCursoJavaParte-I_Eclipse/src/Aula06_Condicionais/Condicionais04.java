@@ -7,13 +7,13 @@ public class Condicionais04 {
 
 		System.out.println("Testando Condicionais III");
 
-		int idade = 16;
+		int idade = 18;
 		
 		boolean acompanhado = true;
 
 		if (idade >= 18 && acompanhado) {
 
-			System.out.println("Seja bem vindo!!!");
+			System.out.println("Seja bem vindo!!! " + acompanhado);
 
 		} else {
 
